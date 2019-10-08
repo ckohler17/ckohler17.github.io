@@ -1,0 +1,75 @@
+body {
+	background-color: lightgray;
+}
+button {
+	background-color: green;
+	color: white;
+	height: 40px;
+	width: 100px;
+}
+nav {
+	padding-left: 15px;
+}
+footer p{
+	font-size: 15px;
+	line-height: 1.0;
+	padding-left: 15px;
+	font-family: arial;
+}
+footer {
+	padding-top: 15px;
+	border-top: 2px solid black;
+}
+
+#indexP {
+	padding-left: 25px;
+}
+#gsfLogo {
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 25px;
+}
+h1 {
+	text-align: center;
+	background-color: white;
+	padding-left: 25px;
+}
+p {
+	font-size: 25px;
+}
+#aboutMe {
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	padding-top: 15px;
+}
+#funFacts {
+	height: 80px;
+	width: 200px;
+}
+.row {
+	height: 325px;
+	padding-top: 15px;
+}
+.col-md-4 {
+	width: 40%;
+	float: left;
+}
+.col-md-8 {
+	width: 60%;
+	float: right;
+	height: 326px;
+}
+.col-md-3 {
+	width: 25%;
+}
+@media screen and (max-width: 525px) {
+	.col-md-4 .col-md-8 {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 525px) {
+	.col-md-3 {
+		width: 100%;
+	}
+}
