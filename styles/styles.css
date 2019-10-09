@@ -7,6 +7,9 @@ button {
 	height: 40px;
 	width: 100px;
 }
+button:hover {
+	background-color: gray;
+}
 nav {
 	padding-left: 15px;
 }
